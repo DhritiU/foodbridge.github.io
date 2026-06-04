@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8743b"/>
+      <stop offset="100%" style="stop-color:#d4a24e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Bridge arch -->
+  <path d="M10 44 Q32 14 54 44" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Bridge deck -->
+  <line x1="8" y1="46" x2="56" y2="46" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cables -->
+  <line x1="18" y1="36" x2="18" y2="46" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+  <line x1="26" y1="26" x2="26" y2="46" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+  <line x1="32" y1="22" x2="32" y2="46" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+  <line x1="38" y1="26" x2="38" y2="46" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+  <line x1="46" y1="36" x2="46" y2="46" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+  <!-- Bread on bridge -->
+  <ellipse cx="22" cy="42" rx="5" ry="3.5" fill="#fff" opacity=".5"/>
+  <path d="M18 42 Q22 37 26 42" fill="#fff" opacity=".35"/>
+  <!-- Heart above -->
+  <path d="M29 12 C29 10, 31.5 9, 32.5 11 C33.5 9, 36 10, 36 12 C36 15, 32.5 18, 32.5 18 C32.5 18, 29 15, 29 12Z" fill="#fff" opacity=".85"/>
+  <!-- Leaf -->
+  <path d="M24 14 Q27 8 30 14 Q27 11 24 14Z" fill="#5a9e4b" opacity=".7"/>
+</svg>

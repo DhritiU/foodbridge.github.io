@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" width="360" height="80">
+  <defs>
+    <linearGradient id="warmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8743b"/>
+      <stop offset="100%" style="stop-color:#d4a24e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a9e4b"/>
+      <stop offset="100%" style="stop-color:#3d7a2e"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf0e2"/>
+      <stop offset="100%" style="stop-color:#e8f5e3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular badge background -->
+  <circle cx="42" cy="40" r="36" fill="url(#skyGrad)" stroke="#e8743b" stroke-width="1.5" opacity=".9"/>
+
+  <!-- Bridge structure -->
+  <path d="M12 52 Q42 16 72 52" stroke="url(#warmGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <line x1="12" y1="54" x2="72" y2="54" stroke="#d4a24e" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bridge cables / railings -->
+  <line x1="22" y1="40" x2="22" y2="54" stroke="#e8743b" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+  <line x1="32" y1="30" x2="32" y2="54" stroke="#e8743b" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+  <line x1="42" y1="25" x2="42" y2="54" stroke="#e8743b" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+  <line x1="52" y1="30" x2="52" y2="54" stroke="#e8743b" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+  <line x1="62" y1="40" x2="62" y2="54" stroke="#e8743b" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Bread loaf on left side of bridge -->
+  <ellipse cx="20" cy="48" rx="7" ry="5" fill="#d4a24e"/>
+  <path d="M14 48 Q20 41 26 48" fill="#e8743b" opacity=".7"/>
+  <!-- Score lines on bread -->
+  <line x1="17" y1="45" x2="19" y2="43" stroke="#c95f2b" stroke-width=".7" stroke-linecap="round" opacity=".6"/>
+  <line x1="20" y1="44" x2="22" y2="42" stroke="#c95f2b" stroke-width=".7" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Bagel on left -->
+  <circle cx="30" cy="48" r="4" fill="#d4a24e" opacity=".85"/>
+  <circle cx="30" cy="48" r="1.5" fill="url(#skyGrad)"/>
+
+  <!-- Heart above bridge center -->
+  <path d="M42 14 C42 11.5, 45 10, 46.5 12 C48 10, 51 11.5, 51 14 C51 18, 46.5 22, 46.5 22 C46.5 22, 42 18, 42 14Z" fill="#e25555" opacity=".9"/>
+  <!-- Tiny sparkle on heart -->
+  <circle cx="44" cy="13.5" r=".8" fill="#fff" opacity=".6"/>
+
+  <!-- Family / hands on right side -->
+  <!-- Open hand reaching -->
+  <path d="M58 44 C58 44, 56 42, 56 40 C56 39, 57 38.5, 57.5 39.5 L57.5 42" fill="none" stroke="#5a9e4b" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M59 44 C59 44, 59 41, 59 39.5 C59 38.5, 60 38, 60.5 39 L60.5 42" fill="none" stroke="#5a9e4b" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M61 44 C61 44, 62 41.5, 62 40 C62 39, 63 38.5, 63.5 39.5 L63 42" fill="none" stroke="#5a9e4b" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M56 44 L64 44" stroke="#5a9e4b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Leaf / freshness accent -->
+  <path d="M36 12 Q40 6 44 12 Q40 9 36 12Z" fill="url(#greenGrad)" opacity=".8"/>
+  <path d="M50 12 Q54 6 58 12 Q54 9 50 12Z" fill="url(#greenGrad)" opacity=".5"/>
+
+  <!-- Wheat stalk accent on left -->
+  <line x1="14" y1="30" x2="14" y2="40" stroke="#d4a24e" stroke-width="1" stroke-linecap="round" opacity=".6"/>
+  <ellipse cx="14" cy="30" rx="2" ry="3.5" fill="#d4a24e" opacity=".5"/>
+  <ellipse cx="12" cy="33" rx="2" ry="3" fill="#d4a24e" opacity=".4" transform="rotate(-15 12 33)"/>
+  <ellipse cx="16" cy="33" rx="2" ry="3" fill="#d4a24e" opacity=".4" transform="rotate(15 16 33)"/>
+
+  <!-- Small house / pantry on right -->
+  <rect x="62" y="46" width="8" height="6" rx="1" fill="#5a9e4b" opacity=".5"/>
+  <path d="M61 46 L66 41 L71 46" fill="#3d7a2e" opacity=".5"/>
+  <rect x="64.5" y="48" width="2.5" height="4" rx=".5" fill="#e8f5e3" opacity=".8"/>
+
+  <!-- Decorative dots around badge -->
+  <circle cx="42" cy="4" r="1.2" fill="#e8743b" opacity=".3"/>
+  <circle cx="10" cy="20" r="1" fill="#5a9e4b" opacity=".3"/>
+  <circle cx="74" cy="20" r="1" fill="#5a9e4b" opacity=".3"/>
+  <circle cx="10" cy="60" r="1" fill="#d4a24e" opacity=".3"/>
+  <circle cx="74" cy="60" r="1" fill="#d4a24e" opacity=".3"/>
+
+  <!-- Text: Food -->
+  <text x="95" y="38" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800" fill="#2c3e50" letter-spacing="1.5">Food</text>
+  <!-- Text: Bridge -->
+  <text x="95" y="62" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800" fill="#e8743b" letter-spacing="1.5">Bridge</text>
+
+  <!-- Tagline -->
+  <text x="200" y="38" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#888" font-weight="400" letter-spacing=".5">From Bakery to</text>
+  <text x="200" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#888" font-weight="400" letter-spacing=".5">Community &#10084;</text>
+</svg>
