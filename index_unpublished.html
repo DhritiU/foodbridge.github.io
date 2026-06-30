@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Bridge | Coming Soon</title>
+  <style>
+    :root {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: #2b3a4a;
+      background: #f9f5ef;
+      --accent: #e8743b;
+      --accent-dark: #c95f2b;
+      --muted: #6d7a89;
+      --surface: #ffffff;
+      --radius: 24px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 32px;
+      background-image: radial-gradient(circle at top left, rgba(232,116,59,.12), transparent 28%),
+                        radial-gradient(circle at bottom right, rgba(90,158,75,.14), transparent 22%);
+    }
+    .wrapper {
+      width: min(100%, 760px);
+      padding: 42px 38px;
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: 0 24px 68px rgba(43, 58, 74, .12);
+      border: 1px solid rgba(43, 58, 74, .08);
+    }
+    .label {
+      display: inline-flex;
+      align-items: center;
+      gap: .6rem;
+      margin-bottom: 1.5rem;
+      padding: .85rem 1.1rem;
+      border-radius: 999px;
+      color: var(--accent);
+      background: rgba(232,116,59,.12);
+      font-size: .9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .label::before { content: '🚧'; }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 5vw, 3.6rem);
+      line-height: 1.03;
+    }
+    p {
+      margin: 1.6rem 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .actions {
+      margin-top: 2.4rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .button {
+      padding: 1rem 1.8rem;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .button.primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 12px 24px rgba(232,116,59,.2);
+    }
+    .button.secondary {
+      border: 2px solid rgba(43, 58, 74, .12);
+      color: #2b3a4a;
+      background: rgba(255,255,255,.95);
+    }
+    .button:hover { transform: translateY(-2px); }
+    .note {
+      margin-top: 2rem;
+      color: var(--muted);
+      font-size: .95rem;
+      line-height: 1.7;
+    }
+    .note strong { color: #1f2933; }
+    @media (max-width: 560px) {
+      body { padding: 20px; }
+      .wrapper { padding: 30px 24px; }
+      .actions { flex-direction: column; }
+      .button { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrapper">
+    <div class="label">Under Construction</div>
+    <h1>Food Bridge is preparing something fresh for you.</h1>
+    <p>We're updating our platform to make it easier for businesses and pantries to share surplus food, reduce waste, and support communities. Please check back soon while we finish the build.</p>
+   </main>
+</body>
+</html>
